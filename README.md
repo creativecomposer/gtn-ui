@@ -3,6 +3,32 @@
 This service implements a frontend interface for registered players to play the game
 "Guess the Number".
 
+## How to run the app in local machine
+
+Run the following commands:
+
+```
+npm i
+npm run dev
+```
+
+Note: The [backend](https://github.com/creativecomposer/guessthenumber-api) should be running
+in order for the app to work.
+
+## How to run the tests
+
+Run either
+
+```
+npm t
+```
+
+or
+
+```
+npm run test:watch
+```
+
 ## App description
 
 Create two web services using JavaScript/TypeScript tech stack:
