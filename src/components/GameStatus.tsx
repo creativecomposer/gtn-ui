@@ -23,7 +23,7 @@ function GameStatus({ guessCount, status }: PropsType) {
   return (
     <div>
       {getStatusText()}
-      <p>Number of guesses: {guessCount}</p>
+      <p data-testid="guess-count">Number of guesses: {guessCount}</p>
     </div>
   );
 }
