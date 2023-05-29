@@ -1,0 +1,10 @@
+.guessForm {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  min-width: 430px;
+}
+
+.guessInput {
+  max-width: 100px;
+}
