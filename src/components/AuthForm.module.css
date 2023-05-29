@@ -1,0 +1,11 @@
+.authForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cta {
+  display: flex;
+  gap: 10px;
+}
